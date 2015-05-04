@@ -1,5 +1,5 @@
 <?php
-declare(strict_types=1);
+//declare(strict_types=1);
 
 namespace JLaso\Gps;
 
@@ -12,7 +12,7 @@ namespace JLaso\Gps;
 class Tools
 {
 
-    public static function distance(float $latitude1, float $longitude1, float $latitude2, float $longitude2): float
+    public static function distance(float $latitude1, float $longitude1, float $latitude2, float $longitude2)
     {
         $dLatitude  = ($latitude2 - $latitude1) / 2;
         $dLongitude = ($longitude2 - $longitude1) / 2;
