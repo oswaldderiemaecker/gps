@@ -23,7 +23,7 @@ class Tools
         return round(12745.9728 * $aux, 4);
     }
 
-    public static function toMiles(float $value): float
+    public static function toMiles(float $value)
     {
         return 0.621 * $value;
     }
